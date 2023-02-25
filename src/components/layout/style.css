@@ -1,0 +1,25 @@
+.MainGrid {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 100%;
+    margin: 60px auto;
+    background: #000;
+}
+
+.box {
+    background: #000;
+    border: #000;
+}
+
+.box:last-child {
+    margin-bottom: 94px;
+}
+
+.suggestionBox {
+    flex: 1;
+    position: fixed;
+    max-width: 293px;
+
+}

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+html {
+    background: #121212;
+}
+
+main.container_pix {
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main.container_pix .infos-user {
+    display: flex;
+    align-items: center;
+}
+
+main.container_pix .icon {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #fff;
+    font-size: 2.65rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    height: 3rem;
+    width: 3rem;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+main.container_pix .content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main.container_pix .content-text .name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+main.container_pix .content-text .email {
+    color: #ffffff80;
+}
+
+main.container_pix .saldo {
+    margin-top: 2rem;
+}
+
+main.container_pix .saldo * {
+    text-align: left;
+}
+
+main.container_pix .saldo .text {
+    color: #ffffff80;   
+}
+
+main.container_pix .saldo .text-saldo {
+    margin-top: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff80;
+    padding-bottom: 1rem;
+}
+
+main.container_pix .saldo .text-saldo p strong:nth-child(1) {
+    color: #e91e63;
+}
+
+main.container_pix .typepix p {
+    text-align: left;
+    margin-top: 1rem;
+    color: #ffffff80;
+}
+
+main.container_pix .typepix .img_pix {
+    display: grid;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+main.container_pix .typepix .img_pix img {
+    width: 100%;
+}
+
+main.container_pix form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+main.container_pix form input {
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0.5rem;
+}
+
+main.container_pix form .input-pix {
+    background: #ffffff80;
+}
+
+main.container_pix form .input-pix::placeholder {
+    color: #000;
+}
+
+main.container_pix form .input-valor {
+    border: 1px solid #ffffff80;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+main.container_pix button {
+    background: #e91e63;
+}

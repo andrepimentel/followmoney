@@ -1,0 +1,144 @@
+.header-post {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 3rem;
+  background: #000;
+  border: 2px solid #3c3b3b;
+  border-radius: 1rem;
+}
+
+.header-post .img-header-post {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 2px solid #3c3b3b;
+}
+
+.infos-post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  width: 30%;
+}
+
+.infos-post p {
+  display: grid;
+  grid-template-columns: 1fr 16px;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 2px;
+}
+
+.infos-post p img{
+  display: grid;
+  width: 16px;
+  height: 16px;
+  transform: translateY(10%);
+}
+
+.img-post img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-post .infos {
+  width: 65%;
+}
+
+.estatisticas {
+  display: flex;
+}
+
+.estatisticas .text {
+  text-align: center;
+  margin: 0.5rem;
+  font-size: 0.9rem;
+}
+
+button {
+  background: #0a98fe;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  color: #fff;
+  margin-top: 0.75rem;
+}
+
+button.active {
+  background: #3c3b3b;
+}
+
+button.active::before {
+  content: "Seguindo";
+}
+
+.footer-post {
+  padding: 10px 15px;
+}
+
+.engagement-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.engagement-post .icons-1 {
+  display: flex;
+  gap: 16px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.like {
+  margin-top: 6px;
+}
+
+.like span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.legend {
+  margin: 6px 0 3px;
+}
+
+.legend p span {
+  font-weight: 500;
+}
+
+.time-post time {
+  font-size: 11px;
+  color: var(--secondary);
+}
+
+.comment {
+  border-top: 1px solid var(--border-secondary);
+  margin-top: 8px;
+
+  display: flex;
+}
+
+.fake-comment {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+  gap: 16px;
+}
+
+.fake-comment input {
+  font-size: 16px;
+}
+
+.comment button {
+  color: var(--quartary);
+  font-weight: 500;
+  cursor: pointer;
+}
